@@ -211,7 +211,7 @@ public class CadastroUsuario extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
    
-    String sql = "INSERT INTO Clientes(nome,CPF,RG,Telefone,Email,Idade,Endereço) VALUES('" +nomeU.getText() + "',"
+    String sql = "INSERT INTO Clientes(cod_cliente,nome,CPF,RG,Telefone,Email,Idade,Endereço) VALUES('" +nomeU.getText() + "',"
                                                                                                     + "'" + cpfU.getText() + "',"
                                                                                                     + "'" + rgU.getText() + "',"
                                                                                                     + "'" + emailU.getText() + "',"
